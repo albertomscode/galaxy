@@ -1,4 +1,4 @@
-/*GENERAL*/
+/* GENERAL */
 * {
     box-sizing: border-box;
 }
@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 
-/*HEADER*/
+/* HEADER */
 header{
     position: fixed;
     color: #fff;
@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 
-/*BODY*/
+/* BODY */
 .full-height {
     position: absolute;
     bottom: 200px;
@@ -141,15 +141,11 @@ div h2:hover{
     transition: 0.8s;
 }
 
-/* cookie notice styles */
+/* cookie notice */
 .cookie-notice {
-    /* positioning styles */
-    /* position: absolute; this style doesn't make the cookie notice stay in place when we scroll  */
     position: fixed;
     bottom: 20px;
     right: 20px;
-  
-    /* make it look good styles */
     background-color: #000;
     color: #fff;
     padding: 1rem;
@@ -157,24 +153,23 @@ div h2:hover{
     font-size: 15px;
     font-family: arial;
     border-radius: 10px;
-  }
-  
-  /* button styles */
-  .btn {
+}
+
+.btn {
     border: none;
     font-size: 17px;
     border-radius: 4px;
     padding: 4px 8px;
     cursor: pointer;
-  }
-  
-  .reject {
+}
+
+.reject {
     background-color: coral;
-  }
-  
-  .approve {
+}
+
+.approve {
     background-color: mediumspringgreen;
-  }
+}
 
 /*FOOTER*/
 footer {
